@@ -11,5 +11,12 @@ namespace projekt
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Random random = new Random();
+int      
+            
+        }
     }
 }

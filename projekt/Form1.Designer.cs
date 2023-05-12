@@ -64,6 +64,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Gissa ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -110,7 +111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 274);
+            this.ClientSize = new System.Drawing.Size(701, 245);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
@@ -120,7 +121,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
